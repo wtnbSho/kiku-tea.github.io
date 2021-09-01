@@ -1,0 +1,102 @@
+.header-wrap {
+    height: 80vh;
+    position: relative;
+}
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav ul li{
+    list-style: none;
+    margin: 0 30px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-main_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.about-us {
+    padding: 90px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.garally {
+    padding: 90px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.member {
+    padding: 90px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.garally, .member {
+    padding: 90px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.garally-title, .member-title, .title{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 90px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.garally-content, .member-content {
+    width: 50%;
+    text-align: center;
+}
+
+.garally-content_img, .member-content_img {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.garally-btn, .member-btn{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.garally-btn a, .member-btn a {
+    text-decoration: none;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 12px 40px;
+    color: #000;
+    font-size: 20px;
+}
+.text {
+    text-align: center;
+    line-height: 400%;
+}
+
