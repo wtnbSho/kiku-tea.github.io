@@ -99,4 +99,63 @@
     text-align: center;
     line-height: 400%;
 }
+/* ベースグループ （リセットCSS) */
 
+figure,div,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* カードモジュール */
+.bl_card_imgWrapper{
+    position:relative;
+    padding-top:100%;
+    overflow:hidden;
+    border-radius:50%;
+}
+.bl_card_imgWrapper > img{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;
+}
+.bl_card_body{
+    padding:15px;
+}
+.bl_card_body > *:last-child{
+    margin-bottom: 0;
+}
+.bl_card_ttl{
+    margin-bottom: 5px;
+    font-size:1.125rem;
+    font-weight:bold;
+}
+.bl_card_txt{
+    color:#777;
+}
+/* ラッパーモジュール */
+.bl_cardUnit{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bl_cardUnit.bl_cardUnit__col3{
+    margin-bottom: -30px;
+}
+.bl_cardUnit__col3 > .bl_card{
+    width:31.707%;
+    margin-right:2.43902%;
+    margin-bottom: 30px;
+}
+.bl_cardUnit__col3 > .bl_card:nth-of-type(3n){
+    margin-right: 0;
+}
+@media screen and (max-width: 768px){
+    .bl_cardUnit.bl_cardUnit__col3{
+        margin-bottom: -20px;
+    }
+    .bl_cardUnit > .bl_card{
+        width:100%;
+        margin-bottom:20px;
+        margin-right: 0;
+    }
+}
