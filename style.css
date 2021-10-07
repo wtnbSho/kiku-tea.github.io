@@ -200,3 +200,42 @@ body{
     text-align: center;
     font-size: 25px;
 }
+
+/* about us フレックスボックス */
+.about_us_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.about_item {
+    width: 50%;
+}
+.about_us_item_img {
+    width: 100%;
+}
+
+/* grallyフレックス */
+/* .garally-content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.garally-content-img{
+    width: 33%;
+}
+.garally-content-txt {
+    width: 66%;
+} */
+
+/* new garally フレックスボックス */
+.garally-list>li {
+    display: flex;
+    
+}
+.garally-list > li > figure {
+    flex-basis:33%;
+}
+.garally-list > li > p {
+    flex-basis:66%;
+}
+img{
+    width: 100%;
+}
