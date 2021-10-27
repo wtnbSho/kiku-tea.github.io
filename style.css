@@ -232,10 +232,11 @@ body{
     
 }
 .garally-list > li > figure {
-    flex-basis:33%;
+    flex-basis:28%;
+    margin-right: 10%;
 }
 .garally-list > li > p {
-    flex-basis:66%;
+    flex-basis:61%;
     text-align: center;
 }
 img{
@@ -244,26 +245,38 @@ img{
 }
 
 /* ギャラリー背景色 */
-.garally {
+/* .garally {
     background-color: #EDE6DE;
-}
+} */
 
 /* ギャラリー背景文字 */
 .garally-title-wrap {
-    position: relative;
-    
+    /* position: relative; */
 }
-.garally-title-sub{
-    position: absolute;
-    /* display: inline-block; */
-    font-size: 38px;
-    margin-bottom: 90px;
-    padding-left: 10%;
-    color: red;
 
+/* ギャラリー背景色 */
+.garally-wrap {
+    background-color:#EDE6DE ;
+    /* position: relative; */
 }
 
 .garally-title {
     /* display: inline-block; */
+    position:relative;
+    z-index: 100;
+    letter-spacing: 50px;
+    color:#905D24 ;
+
+}
+
+.garally-title::before{
     position:absolute;
+    content:'Works';
+    color: #905d2426;
+    display: block;
+    font-size: 200%;
+    letter-spacing: 20px;
+    top: -40px;
+    left: 100px;
+    z-index: -1;
 }
