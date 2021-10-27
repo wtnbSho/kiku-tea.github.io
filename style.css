@@ -72,9 +72,10 @@
 }
 
 .garally-title, .member-title, .title{
-    text-align: center;
+    /* text-align: center; */
     font-size: 38px;
     margin-bottom: 90px;
+    padding-left: 10%;
 }
 
 .flexbox {
@@ -235,7 +236,34 @@ body{
 }
 .garally-list > li > p {
     flex-basis:66%;
+    text-align: center;
 }
 img{
     width: 100%;
+    border: solid black; 
+}
+
+/* ギャラリー背景色 */
+.garally {
+    background-color: #EDE6DE;
+}
+
+/* ギャラリー背景文字 */
+.garally-title-wrap {
+    position: relative;
+    
+}
+.garally-title-sub{
+    position: absolute;
+    /* display: inline-block; */
+    font-size: 38px;
+    margin-bottom: 90px;
+    padding-left: 10%;
+    color: red;
+
+}
+
+.garally-title {
+    /* display: inline-block; */
+    position:absolute;
 }
