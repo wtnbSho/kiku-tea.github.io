@@ -1,3 +1,21 @@
+/* ベース */
+
+body {
+    font-family: "メイリオ",sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+/* //ベース */
+
+
+
+
 .header-wrap {
     height: 100vh;
     position: relative;
@@ -13,7 +31,7 @@
     padding-top: 30px;
 }
 
-.header-nav ul {
+.header-nav > ul {
     display: flex;
 }
 
@@ -109,7 +127,6 @@ figure,div,p{
     position: absolute;
     top:50%;
     transform:translateY(-50%);
-    width:100%;
 }
 .bl_card_body{
     padding:15px;
@@ -160,14 +177,7 @@ figure,div,p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-body{
-    margin: 0;
-}
-.header-main_text {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .header_sub_text{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     left: 50%;
     /* transform:  translate(-50%); */
     /* width: 100%; */
@@ -176,7 +186,6 @@ body{
 
 }
 .header_sub2_text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     left: 50%;
     /* transform:  translate(-50%); */
     /* width: 100%; */
@@ -192,46 +201,25 @@ body{
 .about_item {
     width: 50%;
 }
-.about_us_item_img {
-    width: 100%;
-}
 
-/* grallyフレックス */
-/* .garally-content-wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-.garally-content-img{
-    width: 33%;
-}
-.garally-content-txt {
-    width: 66%;
-} */
 
-/* new garally フレックスボックス */
-.garally-list>li {
+/* garally フレックスボックス */
+.bl_holizList_item {
     display: flex;
+    align-items: center;
     
 }
-.garally-list > li > figure {
+ .bl_holizList_item > figure {
     flex-basis:28%;
     margin-right: 10%;
 }
-.garally-list > li > p {
+ .bl_holizList_item > p {
     flex-basis:61%;
     text-align: center;
 }
-img{
-    width: 100%;
+.bl_holizList_imgWrapper{
     border: solid black; 
 }
-
-/* ギャラリー背景色 */
-/* .garally {
-    background-color: #EDE6DE;
-} */
-
-
 
 /* ギャラリー背景色 */
 .garally-wrap {
