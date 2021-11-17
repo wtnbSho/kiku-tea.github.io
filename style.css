@@ -47,25 +47,7 @@
     letter-spacing: 20px;
 }
 
-.about-us {
-    padding: 90px 0;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.garally {
-    padding: 90px 0;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.member {
-    padding: 90px 0;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.garally, .member {
+.garally, .member ,.contact ,.about-us {
     padding: 90px;
     max-width: 1100px;
     margin: 0 auto;
@@ -249,10 +231,7 @@ img{
     background-color: #EDE6DE;
 } */
 
-/* ギャラリー背景文字 */
-.garally-title-wrap {
-    /* position: relative; */
-}
+
 
 /* ギャラリー背景色 */
 .garally-wrap {
@@ -279,4 +258,12 @@ img{
     top: -40px;
     left: 100px;
     z-index: -1;
+}
+
+.contact-txt {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
 }
