@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KITlab</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
     <div class="header-wrap">
@@ -45,7 +46,7 @@
                 </nav>
             </header>
             <p class="header-main_text">KITLAB</p>
-            <p class="header_sub_text">きっとラボ</p>
+            <blockquote></blockquote>
             <p class="header_sub2_text">美濃加茂市でITに挑戦しているワカモノたち。</p>
         </div>
         <!-- /.header-container -->
@@ -54,42 +55,57 @@
     <main>
         <section class="about-us">
             <div class="about-us-content">
-                <h2 class="title">about us</h2>
-                <p class="text">	いつの間にかITやwebデザインと仲良くなれるところです。<br>
-                    ちょこっとチャレンジしてみるところです。<br>
-                    ゆるりと楽しむところです。</p>
+                <h2 class="title">KITラボって何？</h2>
+                <div class="about_us_wrap">
+                    <div class="about_item">
+                        <p class="text">	
+                            知識ゼロ <br>
+                            それでもやってみたい <br>
+                            いつの間にかITやwebデザインと仲良くなれるところです。<br>
+                            ちょこっとチャレンジしてみるところです。<br>
+                            ゆるりと楽しむところです。</p>
+                    </div>
+                    <!-- /.about_item -->
+                    <div class="about_item">
+                        <img class="about_us_item_img" src="assets/img/about_us.JPG" alt="">
+                    </div>
+                    <!-- /.about_item -->
+                </div>
+                <!-- /.about_us_wrap -->
             </div>
             <!-- /.about-us-content -->
-            </section>
-        <section class="garally">
-            <h2 class="garally-title title">garally</h2>
-            <div class="flexbox">
-                <section class="garally-content">
-                    <p class="garally-content_img">
-                        <img src="" alt="">
-                    </p>
-                    <h3 class="garally-content_title">title</h3>
-                    <p class="garally-content_text">紹介文</p>
-                    <a href="#" class="garally-content_btn">
-                        詳細
-                    </a>
-                </section>
-                <section class="garally-content">
-                    <p class="garally-content_img">
-                        <img src="" alt="">
-                    </p>
-                    <h3 class="garally-content_title">title</h3>
-                    <p class="garally-content_text">紹介文</p>
-                    <a href="#" class="garally-content_btn">
-                        詳細
-                    </a>
-                </section>
-            </div>
-            <!-- /.flexbox -->
-            <p class="garally-btn">
-                <a href="#">ギャラリー一覧</a>
-            </p>
         </section>
+        <div class="garally-wrap">
+            <section class="garally">
+                <div class="garally-title-wrap">
+                    <h2 class="garally-title title">作品集</h2>
+                </div>
+                <ul class="bl_holizList">
+                    <li class="bl_holizList_item">
+                        <figure class="bl_holizList_imgWrapper">
+                            <img src="assets/img/sample.webp" alt="">
+                        </figure>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, velit.</p>
+                    </li>
+                    <li class="bl_holizList_item">
+                        <figure class="bl_holizList_imgWrapper">
+                            <img src="assets/img/sample.webp" alt="">
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </li>
+                    <li class="bl_holizList_item">
+                        <figure class="bl_holizList_imgWrapper">
+                            <img src="assets/img/sample.webp" alt="">
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quasi!</p>
+                    </li>
+                </ul>
+               
+                <p class="garally-btn">
+                    <a href="#">ギャラリー一覧</a>
+                </p>
+            </section>
+        </div>
         <section class="member">
             <h2 class="member-title title">member</h2>
             <div class="bl_cardUnit bl_cardUnit__col3">
@@ -130,8 +146,22 @@
                 <a href="#">メンバー一覧</a>
             </p>
         </section>
+        <section class="contact">
+            <h2 class="contact-title title"><p>contact</p></h2>
+            <div class="contact-txt">
+               作品への感想、活動への応援、共感した！メンバーに入りたい！<br>
+               などありましたら、公式アカウントのDMからお願いします。
+            </div>
+            <div class="sns-wrap">
+                <div class="sns-icon"><a href="https://note.com/" target="_blank"><img src="assets/img/note-icon.webp" alt="インスタグラムアイコン"></a></div>
+                <div class="sns-icon"><a href="https://qiita.com/kitlab" target="_blank"><img src="assets/img/qiita-icon.webp" alt="ツイッターアイコン"></a></div>
+            </div>
+
+           
+        </section>
     </main>
     <footer class="footer">
+        <p>KITLAB © 2021</p>  
     </footer>
 </body>
 </html>
